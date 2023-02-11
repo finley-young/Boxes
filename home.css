@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Poppins:wght@700&display=swap');
+
+:root {
+  --red:  #EA5E5E;
+  --yellow: #F7BA3E;
+  --blue: #56B3B4;
+  --purple: #BF85BF;
+  --background: #1A2B34;
+  --gray: #465862;
+}
+
+
+/* Welcome text in box*/
+.welcome {
+  font-size: 100px;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  color: #f2f2f2;
+}
+/* styling of welcome box*/
+.welcome-box-yellow {
+  width: 600px;
+  background-color: #F7BA3E;
+  margin: auto;
+  margin-top: 40px;
+  outline: 8px solid #333;
+}
+/* hover effect for welcome box*/
+.welcome-box-yellow:hover {
+  transform: scale(1.2);
+  outline: #f2f2f2 solid 10px;
+  z-index: 500;
+
+}
+/* main styling for all info boxes */
+.info_boxes {
+  max-width: 650px;
+  margin: auto;
+  margin-top: 12px;
+  text-align: center;
+  position: relative;
+  bottom: 6px;
+
+  /* -- can be used to see container size -- 
+  background-color: #f2f2f2;
+  opacity: 75%;
+  */
+}
+/* styling for boxes*/
+.box {
+  display: inline-block;
+  font-family: 'Poppins', sans-serif;
+  font-size: 25px;
+  border: 8px solid #333;
+  width: 290px;
+  margin-top: 6px;
+
+  /* -- to see border of info boxes --
+  border: thin red solid;
+  */
+}
+/* info box hover effect */
+.box:hover {
+  transform: scale(1.1);
+  border: #f2f2f2 solid 5px;
+  z-index: 500;
+}
+/* styling for photo #4 */
+.image-fin {
+  width: 280px;
+  margin: 5px 5px -5px 5px;
+}
+
+.image-logo {
+  width: 280px;
+  margin: 5px 5px -5px 5px;
+}
+
+/* specific styling for each box*/
+#one {
+  background-color: #EA5E5E;
+}
+
+#two {
+  background-color: #BF85BF;
+}
+
+#three {
+  background-color: #56B3B4;
+  position: relative;
+  bottom: 330px;
+}
+
+#four {
+  background-color: #465862;
+  position: relative;
+  bottom: 2px;
+}
+
+#five {
+  background-color: #EA5E5E;
+  position: relative;
+  bottom: 370px;
+}
+
+#six {
+  background-color: #BF85BF;
+  position: relative;
+  bottom: 4px;
+}
+
+#seven {
+  background-color: #F7BA3E;
+  position: relative;
+  bottom: 410px;
+}
+
+#eight {
+  background-color: #56B3B4;
+  position: relative;
+  bottom: 6px;
+}
+
+#nine {
+  background-color: #465862;
+  position: relative;
+  bottom: 412px;
+}
+
+#ten {
+  background-color: #EA5E5E;
+  position: relative;
+  bottom: 146px;
+}
+
+#eleven {
+  background-color: #F7BA3E;
+  position: relative;
+  bottom: 414px;
+}
+
+#twelve {
+  background-color: #BF85BF;
+  position: relative;
+  bottom: 414px;
+}
